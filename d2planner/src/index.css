@@ -1,7 +1,7 @@
-/*! 
+/*!
  * Primitive UI | MIT License
  *
- * A minimalist front-end design toolkit built with Sass for developing 
+ * A minimalist front-end design toolkit built with Sass for developing
  * responsive, browser-consistent web apps.
  *
  * Author: Tania Rascia <hello@taniarascia.com>
@@ -377,7 +377,7 @@ html {
 }
 
 body {
-  color: #404040;
+  color: white;
   background: white;
   font-size: 1rem;
 }
@@ -398,6 +398,13 @@ ol li ol {
   margin-bottom: 0;
 }
 
+#root {
+  border-radius: 12px;
+  background: rgba(19, 20, 22, 0.8);
+  padding: 10px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+
 h1,
 h2,
 h3,
@@ -407,7 +414,7 @@ h5 {
   font-weight: 600;
   font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, sans-serif;
   line-height: 1.2;
-  color: #404040;
+  color: white;
 }
 
 h1:not(:first-child),
@@ -502,7 +509,7 @@ pre {
   background: transparent;
   padding: 1rem;
   tab-size: 2;
-  color: #404040;
+  color: white;
   font-family: Menlo, monospace;
   font-size: 14px;
   margin: 0 0 1.5rem 0;
@@ -529,7 +536,7 @@ kbd {
 }
 
 :not(pre) > code {
-  color: #404040;
+  color: white;
   background: transparent;
   font-family: Menlo, monospace;
   font-size: 14px;
@@ -752,7 +759,7 @@ dd {
 
 .alternate-background {
   background: #fafafa;
-  color: #404040;
+  color: white;
 }
 
 .space-between {
@@ -909,7 +916,7 @@ legend {
 }
 
 select {
-  color: #404040;
+  color: white;
   -webkit-appearance: none;
   -moz-appearance: none;
   background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAJCAYAAAA/33wPAAAAvklEQVQoFY2QMQqEMBBFv7ERa/EMXkGw11K8QbDXzuN4BHv7QO6ifUgj7v4UAdlVM8Uwf+b9YZJISnlqrfEUZVlinucnBGKaJgghbiHOyLyFKIoCbdvecpyReYvo/Ma2bajrGtbaC58kCdZ1RZ7nl/4/4d5EsO/7nzl7IUtodBexMMagaRrs+06JLMvcNWmaOv2W/C/TMAyD58dxROgSmvxFFMdxoOs6lliWBXEcuzokXRbRoJRyvqqqQvye+QDMDz1D6yuj9wAAAABJRU5ErkJggg==) right center no-repeat;

@@ -2,7 +2,7 @@
   "name": "d2planner",
   "version": "1.0.0",
   "private": true,
-  "homepage": "http://d2planner.github.io/skills",
+  "homepage": "https://diablotavern.com/d2/skill-planner",
   "dependencies": {
     "mathjs": "^9.4.1",
     "react": "^17.0.2",

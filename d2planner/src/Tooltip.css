@@ -26,10 +26,10 @@ ul {
   margin-bottom:  0;
 }
 ul.dsc3 > li {
-  background: #E3EBF2;
+  background: rgba(19, 20, 22, 0.4);
 }
 li {
-  background: #F5F5F5;
+  background: rgba(19, 20, 22, 0.4);
   margin: .5em;
   padding-left:  .5em;
   padding-right: .5em;
