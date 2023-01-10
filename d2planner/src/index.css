@@ -39,7 +39,7 @@ body {
 /**
  * Render the `main` element consistently in IE.
  */
-main {
+#root main {
   display: block;
 }
 
@@ -47,7 +47,7 @@ main {
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
  */
-h1 {
+#root h1 {
   font-size: 2em;
   margin: 0.67em 0;
 }
@@ -58,7 +58,7 @@ h1 {
  * 1. Add the correct box sizing in Firefox.
  * 2. Show the overflow in Edge and IE.
  */
-hr {
+#root hr {
   box-sizing: content-box;
   /* 1 */
   height: 0;
@@ -71,7 +71,7 @@ hr {
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
-pre {
+#root pre {
   font-family: monospace, monospace;
   /* 1 */
   font-size: 1em;
@@ -83,7 +83,7 @@ pre {
 /**
  * Remove the gray background on active links in IE 10.
  */
-a {
+#root a {
   background-color: transparent;
 }
 
@@ -91,7 +91,7 @@ a {
  * 1. Remove the bottom border in Chrome 57-
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
-abbr[title] {
+#root abbr[title] {
   border-bottom: none;
   /* 1 */
   text-decoration: underline;
@@ -103,8 +103,8 @@ abbr[title] {
 /**
  * Add the correct font weight in Chrome, Edge, and Safari.
  */
-b,
-strong {
+#root b,
+#root strong {
   font-weight: bolder;
 }
 
@@ -112,9 +112,9 @@ strong {
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
-code,
-kbd,
-samp {
+#root code,
+#root kbd,
+#root samp {
   font-family: monospace, monospace;
   /* 1 */
   font-size: 1em;
@@ -124,7 +124,7 @@ samp {
 /**
  * Add the correct font size in all browsers.
  */
-small {
+#root small {
   font-size: 80%;
 }
 
@@ -132,19 +132,19 @@ small {
  * Prevent `sub` and `sup` elements from affecting the line height in
  * all browsers.
  */
-sub,
-sup {
+#root sub,
+#root sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
   vertical-align: baseline;
 }
 
-sub {
+#root sub {
   bottom: -0.25em;
 }
 
-sup {
+#root sup {
   top: -0.5em;
 }
 
@@ -153,7 +153,7 @@ sup {
 /**
  * Remove the border on images inside links in IE 10.
  */
-img {
+#root img {
   border-style: none;
 }
 
@@ -163,11 +163,11 @@ img {
  * 1. Change the font styles in all browsers.
  * 2. Remove the margin in Firefox and Safari.
  */
-button,
-input,
-optgroup,
-select,
-textarea {
+#root button,
+#root input,
+#root optgroup,
+#root select,
+#root textarea {
   font-family: inherit;
   /* 1 */
   font-size: 100%;
@@ -182,8 +182,8 @@ textarea {
  * Show the overflow in IE.
  * 1. Show the overflow in Edge.
  */
-button,
-input {
+#root button,
+#root input {
   /* 1 */
   overflow: visible;
 }
@@ -192,8 +192,8 @@ input {
  * Remove the inheritance of text transform in Edge, Firefox, and IE.
  * 1. Remove the inheritance of text transform in Firefox.
  */
-button,
-select {
+#root button,
+#root select {
   /* 1 */
   text-transform: none;
 }
@@ -201,20 +201,20 @@ select {
 /**
  * Correct the inability to style clickable types in iOS and Safari.
  */
-button,
-[type='button'],
-[type='reset'],
-[type='submit'] {
+#root button,
+#root [type='button'],
+#root [type='reset'],
+#root [type='submit'] {
   -webkit-appearance: button;
 }
 
 /**
  * Remove the inner border and padding in Firefox.
  */
-button::-moz-focus-inner,
-[type='button']::-moz-focus-inner,
-[type='reset']::-moz-focus-inner,
-[type='submit']::-moz-focus-inner {
+#root button::-moz-focus-inner,
+#root [type='button']::-moz-focus-inner,
+#root [type='reset']::-moz-focus-inner,
+#root [type='submit']::-moz-focus-inner {
   border-style: none;
   padding: 0;
 }
@@ -222,17 +222,17 @@ button::-moz-focus-inner,
 /**
  * Restore the focus styles unset by the previous rule.
  */
-button:-moz-focusring,
-[type='button']:-moz-focusring,
-[type='reset']:-moz-focusring,
-[type='submit']:-moz-focusring {
+#root button:-moz-focusring,
+#root [type='button']:-moz-focusring,
+#root [type='reset']:-moz-focusring,
+#root [type='submit']:-moz-focusring {
   outline: 1px dotted ButtonText;
 }
 
 /**
  * Correct the padding in Firefox.
  */
-fieldset {
+#root fieldset {
   padding: 0.35em 0.75em 0.625em;
 }
 
@@ -242,7 +242,7 @@ fieldset {
  * 3. Remove the padding so developers are not caught out when they zero out
  *    `fieldset` elements in all browsers.
  */
-legend {
+#root legend {
   box-sizing: border-box;
   /* 1 */
   color: inherit;
@@ -260,14 +260,14 @@ legend {
 /**
  * Add the correct vertical alignment in Chrome, Firefox, and Opera.
  */
-progress {
+#root progress {
   vertical-align: baseline;
 }
 
 /**
  * Remove the default vertical scrollbar in IE 10+.
  */
-textarea {
+#root textarea {
   overflow: auto;
 }
 
@@ -275,8 +275,8 @@ textarea {
  * 1. Add the correct box sizing in IE 10.
  * 2. Remove the padding in IE 10.
  */
-[type='checkbox'],
-[type='radio'] {
+#root [type='checkbox'],
+#root [type='radio'] {
   box-sizing: border-box;
   /* 1 */
   padding: 0;
@@ -286,8 +286,8 @@ textarea {
 /**
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
-[type='number']::-webkit-inner-spin-button,
-[type='number']::-webkit-outer-spin-button {
+#root [type='number']::-webkit-inner-spin-button,
+#root [type='number']::-webkit-outer-spin-button {
   height: auto;
 }
 
@@ -295,7 +295,7 @@ textarea {
  * 1. Correct the odd appearance in Chrome and Safari.
  * 2. Correct the outline style in Safari.
  */
-[type='search'] {
+#root [type='search'] {
   -webkit-appearance: textfield;
   /* 1 */
   outline-offset: -2px;
@@ -305,7 +305,7 @@ textarea {
 /**
  * Remove the inner padding in Chrome and Safari on macOS.
  */
-[type='search']::-webkit-search-decoration {
+#root [type='search']::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
@@ -313,7 +313,7 @@ textarea {
  * 1. Correct the inability to style clickable types in iOS and Safari.
  * 2. Change font properties to `inherit` in Safari.
  */
-::-webkit-file-upload-button {
+#root ::-webkit-file-upload-button {
   -webkit-appearance: button;
   /* 1 */
   font: inherit;
@@ -325,14 +325,14 @@ textarea {
 /*
  * Add the correct display in Edge, IE 10+, and Firefox.
  */
-details {
+#root details {
   display: block;
 }
 
 /*
  * Add the correct display in all browsers.
  */
-summary {
+#root summary {
   display: list-item;
 }
 
@@ -341,14 +341,14 @@ summary {
 /**
  * Add the correct display in IE 10+.
  */
-template {
+#root template {
   display: none;
 }
 
 /**
  * Add the correct display in IE 10.
  */
-[hidden] {
+#root [hidden] {
   display: none;
 }
 
@@ -356,45 +356,45 @@ html {
   box-sizing: border-box;
 }
 
-*,
-*::before,
-*::after {
+#root *,
+#root *::before,
+#root *::after {
   box-sizing: inherit;
 }
 
-figure {
+#root figure {
   margin: 0;
 }
 
 /**
  * Scaffolding
  */
-html {
+#root {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font: normal normal normal 1rem/1.6 -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 1rem;
 }
 
-body {
+#root {
   color: white;
   background: white;
   font-size: 1rem;
 }
 
-p,
-ol,
-ul,
-dl,
-table {
+#root p,
+#root ol,
+#root ul,
+#root dl,
+#root table {
   margin: 0 0 1.5rem 0;
 }
 
-ul li ul {
+#root ul li ul {
   margin-bottom: 0;
 }
 
-ol li ol {
+#root ol li ol {
   margin-bottom: 0;
 }
 
@@ -405,11 +405,11 @@ ol li ol {
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
 }
 
-h1,
-h2,
-h3,
-h4,
-h5 {
+#root h1,
+#root h2,
+#root h3,
+#root h4,
+#root h5 {
   margin: 1.5rem 0;
   font-weight: 600;
   font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -417,41 +417,41 @@ h5 {
   color: white;
 }
 
-h1:not(:first-child),
-h2:not(:first-child),
-h3:not(:first-child),
-h4:not(:first-child),
-h5:not(:first-child) {
+#root h1:not(:first-child),
+#root h2:not(:first-child),
+#root h3:not(:first-child),
+#root h4:not(:first-child),
+#root h5:not(:first-child) {
   margin: 1.5rem 0;
 }
 
-h1:not(:first-child),
-h2:not(:first-child),
-h3:not(:first-child) {
+#root h1:not(:first-child),
+#root h2:not(:first-child),
+#root h3:not(:first-child) {
   margin-top: 2rem;
 }
 
-h1 {
+#root h1 {
   font-size: 1.75rem;
 }
 
-h2 {
+#root h2 {
   font-size: 1.5rem;
 }
 
-h3 {
+#root h3 {
   font-size: 1.25rem;
 }
 
-h4 {
+#root h4 {
   font-size: 1.1rem;
 }
 
-h5 {
+#root h5 {
   font-size: 1rem;
 }
 
-@media (min-width: 600px) {
+#root @media (min-width: 600px) {
   h1:not(:first-child),
   h2:not(:first-child),
   h3:not(:first-child) {
@@ -474,36 +474,36 @@ h5 {
   }
 }
 
-a {
+#root a {
   color: #0366ee;
   text-decoration: none;
 }
 
-a:hover, a:active, a:focus {
+#root a:hover, #root a:active, #root a:focus {
   color: #0246a2;
   text-decoration: underline;
 }
 
-mark {
+#root mark {
   background: #ffeea8;
   padding: 0 0.2rem;
 }
 
-blockquote {
+#root blockquote {
   margin: 0 0 1.5rem 0;
   border-left: 16px solid #f0f0f0;
   padding: 0 1.5rem;
   font-size: 1.5rem;
 }
 
-blockquote cite {
+#root blockquote cite {
   display: block;
   margin-top: 1.5rem;
   font-size: 1rem;
   text-align: right;
 }
 
-pre {
+#root pre {
   border: 0;
   border-radius: 4px;
   background: transparent;
@@ -515,12 +515,12 @@ pre {
   margin: 0 0 1.5rem 0;
 }
 
-pre code {
+#root pre code {
   font-family: Menlo, monospace;
   line-height: 1.2;
 }
 
-kbd {
+#root kbd {
   background-color: #f7f7f7;
   border: 1px solid #ccc;
   border-radius: 3px;
@@ -535,7 +535,7 @@ kbd {
   text-shadow: 0 1px 0 #fff;
 }
 
-:not(pre) > code {
+#root :not(pre) > code {
   color: white;
   background: transparent;
   font-family: Menlo, monospace;
@@ -545,45 +545,45 @@ kbd {
   border-radius: 4px;
 }
 
-hr {
+#root hr {
   height: 0;
   border: 0;
   border-top: 1px solid #dedede;
 }
 
-dt {
+#root dt {
   font-weight: 600;
 }
 
-dd {
+#root dd {
   margin-bottom: 0.5rem;
 }
 
-.full-container {
+#root .full-container {
   max-width: 100%;
   padding: 0 1rem;
 }
 
-.container, .small-container, .medium-container {
+#root .container, #root .small-container, #root .medium-container {
   max-width: 1200px;
   padding: 0 1rem;
   margin-left: auto;
   margin-right: auto;
 }
 
-.small-container {
+#root .small-container {
   max-width: 800px;
 }
 
-.medium-container {
+#root .medium-container {
   max-width: 1000px;
 }
 
-.content-section {
+#root .content-section {
   padding: 30px 0;
 }
 
-@media (min-width: 600px) {
+#root @media (min-width: 600px) {
   .content-section {
     padding: 60px 0;
   }
@@ -592,31 +592,31 @@ dd {
 /**
  * Grid
  */
-.flex-small,
-.flex-large {
+#root .flex-small,
+#root .flex-large {
   padding-left: 1rem;
   padding-right: 1rem;
 }
 
-.flex-row {
+#root .flex-row {
   margin-left: -1rem;
   margin-right: -1rem;
 }
 
-.flex-row {
+#root .flex-row {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
 
-.flex-small,
-.flex-large {
+#root .flex-small,
+#root .flex-large {
   flex-basis: 100%;
   margin-bottom: 1rem;
 }
 
 /* Small screen breakpoint */
-@media (min-width: 600px) {
+#root @media (min-width: 600px) {
   .flex-small {
     flex: 1;
     margin-bottom: 0;
@@ -639,7 +639,7 @@ dd {
 }
 
 /* Large screen breakpoint */
-@media (min-width: 1000px) {
+#root @media (min-width: 1000px) {
   .flex-large {
     flex: 1;
     margin-bottom: 0;
@@ -664,117 +664,117 @@ dd {
 /**
  * Helpers
  */
-.clearfix::before,
-.clearfix::after {
+#root .clearfix::before,
+#root .clearfix::after {
   content: ' ';
   display: block;
 }
 
-.clearfix:after {
+#root .clearfix:after {
   clear: both;
 }
 
-.text-left {
+#root .text-left {
   text-align: left;
 }
 
-.text-right {
+#root .text-right {
   text-align: right;
 }
 
-.text-center {
+#root .text-center {
   text-align: center;
 }
 
-.text-justify {
+#root .text-justify {
   text-align: justify;
 }
 
-.block {
+#root .block {
   display: block;
 }
 
-.inline-block {
+#root .inline-block {
   display: inline-block;
 }
 
-.inline {
+#root .inline {
   display: inline;
 }
 
-.vertical-center {
+#root .vertical-center {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.responsive-image {
+#root .responsive-image {
   max-width: 100%;
   height: auto;
 }
 
-.show {
+#root .show {
   display: block !important;
 }
 
-.hide {
+#root .hide {
   display: none !important;
 }
 
-.invisible {
+#root .invisible {
   visibility: hidden;
 }
 
-.no-padding-top {
+#root .no-padding-top {
   padding-top: 0;
 }
 
-.no-padding-bottom {
+#root .no-padding-bottom {
   padding-bottom: 0;
 }
 
-.padding-top {
+#root .padding-top {
   padding-top: 2rem;
 }
 
-.padding-bottom {
+#root .padding-bottom {
   padding-bottom: 2rem;
 }
 
-.no-margin-top {
+#root .no-margin-top {
   margin-top: 0;
 }
 
-.no-margin-bottom {
+#root .no-margin-bottom {
   margin-bottom: 0;
 }
 
-.margin-top {
+#root .margin-top {
   margin-top: 2rem;
 }
 
-.margin-bottom {
+#root .margin-bottom {
   margin-bottom: 2rem;
 }
 
-.alternate-background {
+#root .alternate-background {
   background: #fafafa;
   color: white;
 }
 
-.space-between {
+#root .space-between {
   justify-content: space-between;
 }
 
-.justify-center {
+#root .justify-center {
   justify-content: center;
 }
 
-.align-center {
+#root .align-center {
   align-items: center;
 }
 
-.screen-reader-text {
+#root .screen-reader-text {
   clip: rect(1px, 1px, 1px, 1px);
   position: absolute !important;
   height: 1px;
@@ -785,7 +785,7 @@ dd {
 /**
  * Buttons
  */
-.button, a.button, button, [type=submit], [type=reset], [type=button] {
+#root .button, #root a.button, #root button, #root [type=submit], #root [type=reset], #root [type=button] {
   -webkit-appearance: none;
   display: inline-block;
   border: 1px solid #0366ee;
@@ -796,8 +796,8 @@ dd {
   font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 1rem;
   text-transform: none;
-  padding: 0.75rem 1.25rem;
-  margin: 0 0 0.5rem 0;
+  padding: 0;
+  margin: 0;
   vertical-align: middle;
   text-align: center;
   cursor: pointer;
@@ -805,69 +805,69 @@ dd {
   line-height: 1;
 }
 
-.button:hover, a.button:hover, button:hover, [type=submit]:hover, [type=reset]:hover, [type=button]:hover {
+#root .button:hover, #root a.button:hover, #root button:hover, #root [type=submit]:hover, #root [type=reset]:hover, #root [type=button]:hover {
   border: 1px solid #0250bc;
   background: #0250bc;
   color: #ffffff;
   text-decoration: none;
 }
 
-.button:focus, .button:active, a.button:focus, a.button:active, button:focus, button:active, [type=submit]:focus, [type=submit]:active, [type=reset]:focus, [type=reset]:active, [type=button]:focus, [type=button]:active {
+#root .button:focus, #root .button:active, #root a.button:focus, #root a.button:active, #root button:focus, #root button:active, #root [type=submit]:focus, #root [type=submit]:active, #root [type=reset]:focus, #root [type=reset]:active, #root [type=button]:focus, #root [type=button]:active {
   border: 1px solid #0250bc;
   background: #0250bc;
   color: #ffffff;
   text-decoration: none;
 }
 
-.button::-moz-focus-inner, a.button::-moz-focus-inner, button::-moz-focus-inner, [type=submit]::-moz-focus-inner, [type=reset]::-moz-focus-inner, [type=button]::-moz-focus-inner {
+#root .button::-moz-focus-inner, #root a.button::-moz-focus-inner, #root button::-moz-focus-inner, #root [type=submit]::-moz-focus-inner, #root [type=reset]::-moz-focus-inner, #root [type=button]::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
 
-.accent-button,
-a.accent-button {
+#root .accent-button,
+#root a.accent-button {
   color: #ffffff;
   border: 1px solid #29de7d;
   background: #29de7d;
 }
 
-.accent-button:hover, .accent-button:focus, .accent-button:active,
-a.accent-button:hover,
-a.accent-button:focus,
-a.accent-button:active {
+#root .accent-button:hover, #root .accent-button:focus, #root .accent-button:active,
+#root a.accent-button:hover,
+#root a.accent-button:focus,
+#root a.accent-button:active {
   color: #ffffff;
   border: 1px solid #1cb864;
   background: #1cb864;
 }
 
-.muted-button,
-a.muted-button {
+#root .muted-button,
+#root a.muted-button {
   background: transparent;
   border: 1px solid #cdcdcd;
   color: #4e4e4e;
 }
 
-.muted-button:hover, .muted-button:focus, .muted-button:active,
-a.muted-button:hover,
-a.muted-button:focus,
-a.muted-button:active {
+#root .muted-button:hover, #root .muted-button:focus, #root .muted-button:active,
+#root a.muted-button:hover,
+#root a.muted-button:focus,
+#root a.muted-button:active {
   color: #4e4e4e;
   border: 1px solid #818181;
   background: transparent;
 }
 
-.round-button,
-a.round-button {
+#root .round-button,
+#root a.round-button {
   border-radius: 40px;
 }
 
-.square-button,
-a.square-button {
+#root .square-button,
+#root a.square-button {
   border-radius: 0;
 }
 
-.full-button,
-a.full-button {
+#root .full-button,
+#root a.full-button {
   display: block;
   width: 100%;
 }
@@ -875,47 +875,47 @@ a.full-button {
 /**
  * Forms
  */
-[type=color], [type=date], [type=datetime], [type=datetime-local], [type=email], [type=month], [type=number], [type=password], [type=search], [type=tel], [type=text], [type=url], [type=week], [type=time], select, textarea {
+#root [type=color], #root [type=date], #root [type=datetime], #root [type=datetime-local], #root [type=email], #root [type=month], #root [type=number], #root [type=password], #root [type=search], #root [type=tel], #root [type=text], #root [type=url], #root [type=week], #root [type=time], #root select, #root textarea {
   display: block;
   border: 1px solid #dedede;
   border-radius: 4px;
-  padding: 0.75rem;
+  padding: 0;
   outline: none;
   background: transparent;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0;
   font-size: 1rem;
   width: 100%;
   max-width: 100%;
   line-height: 1;
 }
 
-[type=color]:hover, [type=date]:hover, [type=datetime]:hover, [type=datetime-local]:hover, [type=email]:hover, [type=month]:hover, [type=number]:hover, [type=password]:hover, [type=search]:hover, [type=tel]:hover, [type=text]:hover, [type=url]:hover, [type=week]:hover, [type=time]:hover, select:hover, textarea:hover {
+#root [type=color]:hover, #root [type=date]:hover, #root [type=datetime]:hover, #root [type=datetime-local]:hover, #root [type=email]:hover, #root [type=month]:hover, #root [type=number]:hover, #root [type=password]:hover, #root [type=search]:hover, #root [type=tel]:hover, #root [type=text]:hover, #root [type=url]:hover, #root [type=week]:hover, #root [type=time]:hover, #root select:hover, #root textarea:hover {
   border: 1px solid #c5c5c5;
 }
 
-[type=color]:focus, [type=color]:active, [type=date]:focus, [type=date]:active, [type=datetime]:focus, [type=datetime]:active, [type=datetime-local]:focus, [type=datetime-local]:active, [type=email]:focus, [type=email]:active, [type=month]:focus, [type=month]:active, [type=number]:focus, [type=number]:active, [type=password]:focus, [type=password]:active, [type=search]:focus, [type=search]:active, [type=tel]:focus, [type=tel]:active, [type=text]:focus, [type=text]:active, [type=url]:focus, [type=url]:active, [type=week]:focus, [type=week]:active, [type=time]:focus, [type=time]:active, select:focus, select:active, textarea:focus, textarea:active {
+#root [type=color]:focus, #root [type=color]:active, #root [type=date]:focus, #root [type=date]:active, #root [type=datetime]:focus, #root [type=datetime]:active, #root [type=datetime-local]:focus, #root [type=datetime-local]:active, #root [type=email]:focus, #root [type=email]:active, #root [type=month]:focus, #root [type=month]:active, #root [type=number]:focus, #root [type=number]:active, #root [type=password]:focus, #root [type=password]:active, #root [type=search]:focus, #root [type=search]:active, #root [type=tel]:focus, #root [type=tel]:active, #root [type=text]:focus, #root [type=text]:active, #root [type=url]:focus, #root [type=url]:active, #root [type=week]:focus, #root [type=week]:active, #root [type=time]:focus, #root [type=time]:active, #root select:focus, #root select:active, #root textarea:focus, #root textarea:active {
   border: 1px solid #0366ee;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.1), 0 0 6px #8cbcfe;
 }
 
-textarea {
+#root textarea {
   overflow: auto;
   height: auto;
 }
 
-fieldset {
+#root fieldset {
   border: 1px solid #dedede;
   border-radius: 4px;
   padding: 1rem;
   margin: 1.5rem 0;
 }
 
-legend {
+#root legend {
   padding: 0 0.5rem;
   font-weight: 600;
 }
 
-select {
+#root select {
   color: white;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -923,22 +923,22 @@ select {
   line-height: 1;
 }
 
-select::-ms-expand {
+#root select::-ms-expand {
   display: none;
 }
 
-[type='range'] {
+#root [type='range'] {
   width: 100%;
 }
 
-label {
+#root label {
   font-weight: 600;
   max-width: 100%;
   display: block;
   margin: 1rem 0 0.5rem;
 }
 
-@media (min-width: 600px) {
+#root @media (min-width: 600px) {
   .split-form label {
     text-align: right;
     padding: 0 0.5rem;
@@ -946,82 +946,82 @@ label {
   }
 }
 
-input.has-error, input.has-error:hover, input.has-error:focus, input.has-error:active,
-select.has-error,
-select.has-error:hover,
-select.has-error:focus,
-select.has-error:active,
-textarea.has-error,
-textarea.has-error:hover,
-textarea.has-error:focus,
-textarea.has-error:active {
+#root input.has-error, #root input.has-error:hover, #root input.has-error:focus, #root input.has-error:active,
+#root select.has-error,
+#root select.has-error:hover,
+#root select.has-error:focus,
+#root select.has-error:active,
+#root textarea.has-error,
+#root textarea.has-error:hover,
+#root textarea.has-error:focus,
+#root textarea.has-error:active {
   border: 1px solid #d33c40;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.1), 0 0 6px #f4cecf;
 }
 
-input.is-success, input.is-success:hover, input.is-success:focus, input.is-success:active,
-select.is-success,
-select.is-success:hover,
-select.is-success:focus,
-select.is-success:active,
-textarea.is-success,
-textarea.is-success:hover,
-textarea.is-success:focus,
-textarea.is-success:active {
+#root input.is-success, #root input.is-success:hover, #root input.is-success:focus, #root input.is-success:active,
+#root select.is-success,
+#root select.is-success:hover,
+#root select.is-success:focus,
+#root select.is-success:active,
+#root textarea.is-success,
+#root textarea.is-success:hover,
+#root textarea.is-success:focus,
+#root textarea.is-success:active {
   border: 1px solid #29de7d;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.1), 0 0 6px #97efc0;
 }
 
-::-webkit-input-placeholder,
-::-moz-placeholder,
-:-moz-placeholder,
-:-ms-input-placeholder {
+#root ::-webkit-input-placeholder,
+#root ::-moz-placeholder,
+#root :-moz-placeholder,
+#root :-ms-input-placeholder {
   color: #9a9a9a;
 }
 
 /**
  * Tables
  */
-table {
+#root table {
   border-collapse: collapse;
   border-spacing: 0;
   width: 100%;
   max-width: 100%;
 }
 
-thead th {
+#root thead th {
   border-bottom: 2px solid #dedede;
 }
 
-tfoot th {
+#root tfoot th {
   border-top: 2px solid #dedede;
 }
 
-td {
+#root td {
   border-bottom: 1px solid #dedede;
 }
 
-th,
-td {
+#root th,
+#root td {
   text-align: left;
   padding: 0.5rem;
 }
 
-caption {
+#root caption {
   padding: 1rem 0;
   caption-side: bottom;
   color: #ababab;
 }
 
-.striped-table tbody tr:nth-child(odd) {
+#root .striped-table tbody tr:nth-child(odd) {
   background-color: #f8f8f8;
 }
 
-.contain-table {
+#root .contain-table {
   overflow-x: auto;
 }
 
-@media (min-width: 600px) {
+#root @media (min-width: 600px) {
   .contain-table {
     width: 100%;
   }

@@ -1,14 +1,14 @@
-img.shareImage {
+#root img.shareImage {
   height:  36px;
   background-color: #F5F5F5;
 }
 
-div.shareButton {
+#root div.shareButton {
   display: flex;
   margin: 0px auto;
 }
 
-button.shareButton, button.shareButton:focus {
+#root button.shareButton, #root button.shareButton:focus {
   display: flex;
   padding: 2px;
   background-color: transparent;
@@ -18,6 +18,6 @@ button.shareButton, button.shareButton:focus {
   outline: none;
 }
 
-button.shareButton:hover, button.shareButton:active {
+#root button.shareButton:hover, #root button.shareButton:active {
   background-color: #E3EBF2;
 }

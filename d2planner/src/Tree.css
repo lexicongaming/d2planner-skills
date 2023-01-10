@@ -1,28 +1,28 @@
-.treeWithOptionsContainer {
+#root .treeWithOptionsContainer {
   margin-top: 2em;
 }
 
-.treeContainer {
+#root .treeContainer {
   position: relative;
   height: fit-content;
   width: fit-content;
   float: left;
 }
 
-.tree {
+#root .tree {
   width: 420px;
   box-shadow: 0 0 8px black;
 }
 
-button.hasBonus, input.hasBonus {
+#root button.hasBonus, #root input.hasBonus {
   color:  #EDBA47
 }
 
-button.noBonus, input.noBonus {
+#root button.noBonus, #root input.noBonus {
   color:  linen;
 }
 
-button.resetButton, button.resetButton:focus {
+#root button.resetButton, #root button.resetButton:focus {
   position: absolute;
   background-color: transparent;
   border-color:  transparent;
@@ -32,26 +32,26 @@ button.resetButton, button.resetButton:focus {
   height: 7.4%;
   backdrop-filter: brightness(100%);
 }
-button.resetButton:hover {
+#root button.resetButton:hover {
   backdrop-filter: brightness(120%);
 }
-button.resetButton:active{
- backdrop-filter: brightness(100%); 
+#root button.resetButton:active{
+ backdrop-filter: brightness(100%);
 }
 
-button.resetButton.resetButton1 {
+#root button.resetButton.resetButton1 {
   left:  4.6%;
 }
 
-button.resetButton.resetButton2 {
+#root button.resetButton.resetButton2 {
   left:  31.2%;
 }
 
-button.resetButton.resetButton3 {
+#root button.resetButton.resetButton3 {
   left:  53.5%;
 }
 
-.resetTipText {
+#root .resetTipText {
   margin: 0;
   padding: 0;
 }

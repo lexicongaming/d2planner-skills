@@ -1,36 +1,36 @@
-.skillContainer{
+#root .skillContainer{
   position: absolute;
   width: 19.7%;
   height: 14.45%;
 }
-.skillContainer.row1{
+#root .skillContainer.row1{
   top: 3.3%;
 }
-.skillContainer.row2{
+#root .skillContainer.row2{
   top: 18.7%;
 }
-.skillContainer.row3{
+#root .skillContainer.row3{
   top: 34.3%;
 }
-.skillContainer.row4{
+#root .skillContainer.row4{
   top: 49.8%;
 }
-.skillContainer.row5{
+#root .skillContainer.row5{
   top: 65.4%;
 }
-.skillContainer.row6{
+#root .skillContainer.row6{
   top: 81%;
 }
-.skillContainer.column1{
+#root .skillContainer.column1{
   left: 4.82%;
 }
-.skillContainer.column2{
+#root .skillContainer.column2{
   left: 26.3%;
 }
-.skillContainer.column3{
+#root .skillContainer.column3{
   left: 47.9%;
 }
-.skill, .skill:focus {
+#root .skill, #root .skill:focus {
   position: absolute;
   backdrop-filter: brightness(60%);
   width: 77%;
@@ -41,7 +41,7 @@
   z-index: 1;
   outline: none;
 }
-.skill:hover, .skill:active {
+#root .skill:hover, #root .skill:active {
   border-radius: 2px;
   border-width: 3px;
   background-color: transparent;
@@ -51,36 +51,36 @@
 }
 
 
-button.currentSkill, button.currentSkill:focus {
+#root button.currentSkill, #root button.currentSkill:focus {
   border-color: linen;
   backdrop-filter: brightness(80%);
   border-width: 2px;
   box-shadow: 0 0 6px linen;
-  outline: none; 
+  outline: none;
 }
-button.currentSkill:hover, button.currentSkill:active {
+#root button.currentSkill:hover, #root button.currentSkill:active {
   border-width: 3px;
 }
 
-button.allocated, button.allocated:focus {
+#root button.allocated, #root button.allocated:focus {
   backdrop-filter: none;
 }
 
-button.synergy, button.synergy:focus {
+#root button.synergy, #root button.synergy:focus {
   border-color: #598AB1;
   border-width:  2px;
   box-shadow: 0 0 6px #598AB1;
   outline: none;
 }
 
-button.invalid, button.invalid:focus {
+#root button.invalid, #root button.invalid:focus {
   border-color: #D45113;
   border-width:  2px;
   box-shadow: 0 0 6px #D45113;
   outline: none;
 }
 
-button.requirement, button.requirement:focus {
+#root button.requirement, #root button.requirement:focus {
   border-color: linen;
   border-width:  1px;
   backdrop-filter: brightness(80%);
@@ -88,25 +88,25 @@ button.requirement, button.requirement:focus {
   outline: none;
 }
 
-button.requirement.synergy, button.requirement.synergy:focus {
+#root button.requirement.synergy, #root button.requirement.synergy:focus {
   box-shadow: inset 0 0 6px 2px #598AB1, 0 0 6px linen;
 }
 
-button.requirement.invalid, button.requirement.invalid:focus {
+#root button.requirement.invalid, #root button.requirement.invalid:focus {
   box-shadow: inset 0 0 6px 2px #D45113, 0 0 6px linen;
 }
 
-button.currentSkill.invalid, button.currentSkill.invalid:focus {
+#root button.currentSkill.invalid, #root button.currentSkill.invalid:focus {
   border-color:  linen;
   border-width: 2px;
   box-shadow: inset 0 0 6px 2px #D45113, 0 0 6px linen;
 }
 
-button.currentSkill.invalid:hover, button.currentSkill.invalid:active {
+#root button.currentSkill.invalid:hover, #root button.currentSkill.invalid:active {
   border-width: 3px;
 }
 
-button.bonusMode, button.bonusMode:focus {
+#root button.bonusMode, #root button.bonusMode:focus {
   backdrop-filter: blur(2px) brightness(60%);
   border-color: transparent;
   box-shadow: none;
@@ -116,25 +116,25 @@ button.bonusMode, button.bonusMode:focus {
   padding: 0px;
 }
 
-button.bonusMode:hover, button.bonusMode:active {
+#root button.bonusMode:hover, #root button.bonusMode:active {
   border-color: #EDBA47;
   box-shadow: 0 0 6px #EDBA47;
 }
 
-button.bonusMode.currentSkill, button.bonusMode.currentSkill:focus {
+#root button.bonusMode.currentSkill, #root button.bonusMode.currentSkill:focus {
   border-width: 2px;
   border-color: #EDBA47;
 }
 
-button.bonusMode.currentSkill:hover, button.bonusMode.currentSkill:active {
+#root button.bonusMode.currentSkill:hover, #root button.bonusMode.currentSkill:active {
   border-width: 3px;
 }
 
-button.bonusMode.requirement, button.bonusMode.requirement:focus {
+#root button.bonusMode.requirement, #root button.bonusMode.requirement:focus {
   box-shadow: none;
 }
 
-.skillPoints {
+#root .skillPoints {
   position:  absolute;
   text-align: center;
   border-color: transparent;
@@ -147,22 +147,22 @@ button.bonusMode.requirement, button.bonusMode.requirement:focus {
   width:  28%;
   height:  28%;
 }
-.skillPoints:focus {
+#root .skillPoints:focus {
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.1), 0 0 6px linen;
   border-color: transparent;
 }
-.skillPoints:active {
+#root .skillPoints:active {
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.1), 0 0 6px #EDBA47;
 }
 
 /* Hide Number input arrows:  Chrome, Safari, Edge, Opera */
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
+#root input::-webkit-outer-spin-button,
+#root input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
 
 /* Hide Number input arrows:  Firefox */
-input[type=number] {
+#root input[type=number] {
   -moz-appearance: textfield;
 }

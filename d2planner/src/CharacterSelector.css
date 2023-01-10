@@ -1,4 +1,4 @@
-.characterSelectorContainer {
+#root .characterSelectorContainer {
   display: flex;
   justify-content: space-evenly;
   width: 80%;
@@ -7,7 +7,7 @@
   flex-wrap: wrap;
 }
 
-.characterButton {
+#root .characterButton {
   background-color: transparent;
   border-color: transparent;
   padding: 0.1rem .3rem;
@@ -16,14 +16,14 @@
   font-weight: normal;
 }
 
-.characterButton:hover, .characterButton:active, .characterButton:focus {
+#root .characterButton:hover, #root .characterButton:active, #root .characterButton:focus {
   text-decoration: underline;
   background-color: transparent;
   border-color: transparent;
   color: #404040;
 }
 
-.selectedCharacterButton {
+#root .selectedCharacterButton {
   background-color: transparent;
   border-color: #404040;
   padding: 0.1rem .3rem;
@@ -32,8 +32,8 @@
   font-weight: 600;
 }
 
-.selectedCharacterButton:hover, .selectedCharacterButton:active, .selectedCharacterButton:focus {
+#root .selectedCharacterButton:hover, #root .selectedCharacterButton:active, #root .selectedCharacterButton:focus {
   background-color: transparent;
   border-color: #404040;
-  color: #404040;  
+  color: #404040;
 }

@@ -1,14 +1,14 @@
-.bonusContainer {
+#root .bonusContainer {
   position: absolute;
   align-items: center;
   height:  1.6em;
   display: flex;
   width:  fit-content;
   top: 3px;
-  right: 3px; 
+  right: 3px;
 }
 
-.bonusFormButton, .bonusFormButton:focus {
+#root .bonusFormButton, #root .bonusFormButton:focus {
   text-align:right;
   font-size:  11pt;
   padding:  2px;
@@ -19,7 +19,7 @@
   background-color: transparent;
 }
 
-.bonusFormButton:hover, .bonusFormButton:active {
+#root .bonusFormButton:hover, #root .bonusFormButton:active {
   border-radius: 2px;
   border-width: 1px;
   background-color: transparent;
@@ -27,7 +27,7 @@
   outline: none;
 }
 
-.bonus {
+#root .bonus {
   width:  1.3em;
   height: 1.6em;
   bottom:  0px;
@@ -41,13 +41,13 @@
   margin: 0;
 }
 
-.bonus:hover {
+#root .bonus:hover {
   border-color: #EDBA47;
 }
-.bonus:focus {
+#root .bonus:focus {
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.1), 0 0 6px #EDBA47;
   border-color: transparent;
 }
-.bonus:active {
+#root .bonus:active {
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.1), 0 0 6px linen;
 }
