@@ -11,7 +11,7 @@ function App() {
   return (
     <Router basename={process.env.PUBLIC_URL} history={history}>
         <div className="planner">
-          <h1 className="mainTitle">Diablo 2 Skill Planner</h1>
+          <h1 className="entry-title">Diablo 2 Skill Planner</h1>
           <Route path="/" component={Planner}/>
           <Footer/>
         </div>

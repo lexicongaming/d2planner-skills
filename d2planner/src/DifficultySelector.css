@@ -17,11 +17,11 @@
 }
 
 #root button.difficulty:hover, #root button.difficulty:active, #root button.auto:hover, #root button.auto:active {
-  border-color: #404040;
+  border-color: #ffc000;
 }
 
 #root button.difficultySelected, #root button.difficultySelected:focus, #root button.autoSelected, #root button.autoSelected:focus {
-  border-color: #404040;
+  border-color: #ffc000;
 }
 
 #root button.autoSelected:hover, #root button.autoSelected:active {

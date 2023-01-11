@@ -1,10 +1,10 @@
 #root .characterSelectorContainer {
   display: flex;
   justify-content: space-evenly;
-  width: 80%;
-  margin: auto;
+  width: 100%;
   padding: 10px;
   flex-wrap: wrap;
+  box-sizing: border-box;
 }
 
 #root .characterButton {
@@ -12,7 +12,7 @@
   border-color: transparent;
   padding: 0.1rem .3rem;
   margin: 0px 2px;
-  color: #404040;
+  color: #ffc000;
   font-weight: normal;
 }
 
@@ -20,20 +20,20 @@
   text-decoration: underline;
   background-color: transparent;
   border-color: transparent;
-  color: #404040;
+  color: #ffc000;
 }
 
 #root .selectedCharacterButton {
   background-color: transparent;
-  border-color: #404040;
+  border-color: #ffc000;
   padding: 0.1rem .3rem;
   margin: 0px;
-  color: #404040;
+  color: #ffc000;
   font-weight: 600;
 }
 
 #root .selectedCharacterButton:hover, #root .selectedCharacterButton:active, #root .selectedCharacterButton:focus {
   background-color: transparent;
-  border-color: #404040;
-  color: #404040;
+  border-color: #ffc000;
+  color: #ffc000;
 }

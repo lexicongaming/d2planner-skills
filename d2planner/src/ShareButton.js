@@ -19,7 +19,7 @@ function ShareButton (props) {
         effect='solid'
         event='click'
         eventOff='mouseleave'
-        afterShow={() => navigator.clipboard.writeText(`d2planner.github.io/skills/?${props.buildString}`)}
+        afterShow={() => navigator.clipboard.writeText(`https://diablotavern.com/d2/skill-planner/?${props.buildString}`)}
         delayHide={500}
         type='light'
         textColor='#404040'
