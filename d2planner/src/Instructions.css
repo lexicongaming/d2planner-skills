@@ -1,12 +1,11 @@
 #root .instructionsContainer {
   display:  flex;
-  justify-content: space-evenly;
-  width:  305px;
   margin-bottom: 6px;
+  justify-content: center;
 }
 
 #root p.instructionsText {
   font-size: 11pt;
-  margin: 0;
+  margin: 0 10px;
   padding: 0;
 }

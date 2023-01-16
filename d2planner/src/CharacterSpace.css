@@ -10,7 +10,7 @@
   position: absolute;
   align-items: center;
   width:  fit-content;
-  bottom:  32px;
+  bottom:  25%;
   right: 0;
   left:  0;
   margin-left: auto;
@@ -26,6 +26,11 @@
   padding-left:  8px;
   padding-right:  8px;
   font-weight: bold;
+}
+@media (max-width: 600px) {
+  #root .characterText {
+    margin-bottom: 0.5em;
+  }
 }
 
 #root .characterLevel {

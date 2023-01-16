@@ -15,6 +15,11 @@
   width: 420px;
   box-shadow: 0 0 8px black;
 }
+@media (max-width: 600px) {
+  #root .tree {
+    width: 80vw;
+  }
+}
 
 #root button.hasBonus, #root input.hasBonus {
   color:  #EDBA47

@@ -4,6 +4,11 @@
   padding: 0;
   margin-bottom: 2em;
 }
+@media (max-width: 600px) {
+  #root .tooltipContainer {
+    width: 100%;
+  }
+}
 #root .skillPreamble {
   margin-bottom: 1em;
 }

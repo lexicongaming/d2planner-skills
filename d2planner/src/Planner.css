@@ -26,6 +26,7 @@
   flex-direction: row;
   padding: 0;
   margin: 4px 0;
+  justify-content: space-around;
 }
 
 #root .mouseLeftImage {

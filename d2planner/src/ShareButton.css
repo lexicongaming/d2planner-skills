@@ -5,7 +5,7 @@
 
 #root div.shareButton {
   display: flex;
-  margin: 0px auto;
+  margin: 0;
 }
 
 #root button.shareButton, #root button.shareButton:focus {
