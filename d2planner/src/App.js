@@ -10,10 +10,14 @@ const  history = createBrowserHistory();
 function App() {
   return (
     <Router basename={process.env.PUBLIC_URL} history={history}>
-        <div className="planner">
-          <h1 className="entry-title">Diablo 2 Skill Planner</h1>
-          <Route path="/" component={Planner}/>
-          <Footer/>
+        <header className="entry-header">
+          <h1 className="entry-title">Diablo II: Resurrected - Skill Planner</h1>
+        </header>
+        <div className="planner-wrapper">
+          <div className="planner">
+            <Route path="/" component={Planner}/>
+            <Footer/>
+          </div>
         </div>
     </Router>
   );

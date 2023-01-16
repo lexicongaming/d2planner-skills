@@ -367,12 +367,6 @@ html {
   font-size: 1rem;
 }
 
-#root {
-  color: white;
-  background: white;
-  font-size: 1rem;
-}
-
 #root p,
 #root ol,
 #root ul,
@@ -389,7 +383,7 @@ html {
   margin-bottom: 0;
 }
 
-#root {
+#root .planner-wrapper {
   border-radius: 12px;
   background: rgba(19, 20, 22, 0.8);
   padding: 10px;
