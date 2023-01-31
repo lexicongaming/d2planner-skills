@@ -44,6 +44,7 @@ class Planner extends Component {
         ...buildState,
       };
     } else {
+      initialState.landingPage = true;
       this.state = initialState;
     }
   }
@@ -60,6 +61,7 @@ class Planner extends Component {
       this.state.difficultyAuto,
     );
     this.setState({
+      landingPage: false,
       character: character,
       currentTab: 1,
       currentSkill: skillData.tree[character][1].skills[0].skillName,
@@ -110,6 +112,18 @@ class Planner extends Component {
   };
 
   render() {
+    if (this.state.landingPage) {
+      return (
+        <div className='plannerContainer'>
+          <CharacterSelector
+            character={null}
+            setCharacter={this.setCharacter}
+            landingPage={true}
+          />
+        </div>
+      );
+    }
+
     const buildString = stateToBuildString(this.state, skillData.skillDetails)
     history.push(`?${buildString}`);
     return (
@@ -117,6 +131,7 @@ class Planner extends Component {
         <CharacterSelector
           character={this.state.character}
           setCharacter={this.setCharacter}
+          landingPage={false}
         />
         <hr></hr>
         <div className='plannerCoreContainer'>

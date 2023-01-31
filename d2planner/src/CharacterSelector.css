@@ -1,10 +1,14 @@
+#root .selector-wrapper {
+  max-width: 700px;
+}
+
 #root .characterSelectorContainer {
   display: flex;
   justify-content: space-evenly;
-  width: 100%;
   padding: 10px;
   flex-wrap: wrap;
   box-sizing: border-box;
+  width: 100%;
 }
 
 #root .characterButton {
